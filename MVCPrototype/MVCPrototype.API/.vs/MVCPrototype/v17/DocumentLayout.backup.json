@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Sistemas\\agrotools\\MVCPrototype\\MVCPrototype.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CA8A116-E6C1-4BE3-A747-E4BF46B26079}|..\\MVCPrototype.Application\\MVCPrototype.Application.csproj|c:\\sistemas\\agrotools\\mvcprototype\\mvcprototype.application\\services\\weatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A918FD-F423-4897-BAAA-0ABE70C15BCE}|..\\MVCPrototype.Domain\\MVCPrototype.Domain.csproj|c:\\sistemas\\agrotools\\mvcprototype\\mvcprototype.domain\\entities\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE97CA72-9738-4E8A-A976-6D129D85CD1C}|MVCPrototype.API.csproj|c:\\sistemas\\agrotools\\mvcprototype\\mvcprototype.api\\wwwroot\\js\\weather\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{DE97CA72-9738-4E8A-A976-6D129D85CD1C}|MVCPrototype.API.csproj|solutionrelative:wwwroot\\js\\weather\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherService.cs",
+              "DocumentMoniker": "C:\\Sistemas\\agrotools\\MVCPrototype\\MVCPrototype.Application\\Services\\WeatherService.cs",
+              "RelativeDocumentMoniker": "..\\MVCPrototype.Application\\Services\\WeatherService.cs",
+              "ToolTip": "C:\\Sistemas\\agrotools\\MVCPrototype\\MVCPrototype.Application\\Services\\WeatherService.cs",
+              "RelativeToolTip": "..\\MVCPrototype.Application\\Services\\WeatherService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T01:39:42.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Sistemas\\agrotools\\MVCPrototype\\MVCPrototype.Domain\\Entities\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "..\\MVCPrototype.Domain\\Entities\\WeatherForecast.cs",
+              "ToolTip": "C:\\Sistemas\\agrotools\\MVCPrototype\\MVCPrototype.Domain\\Entities\\WeatherForecast.cs",
+              "RelativeToolTip": "..\\MVCPrototype.Domain\\Entities\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T01:39:16.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Sistemas\\agrotools\\MVCPrototype\\MVCPrototype.API\\wwwroot\\js\\weather\\main.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\weather\\main.js",
+              "ToolTip": "C:\\Sistemas\\agrotools\\MVCPrototype\\MVCPrototype.API\\wwwroot\\js\\weather\\main.js",
+              "RelativeToolTip": "wwwroot\\js\\weather\\main.js",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-29T01:34:21.044Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
