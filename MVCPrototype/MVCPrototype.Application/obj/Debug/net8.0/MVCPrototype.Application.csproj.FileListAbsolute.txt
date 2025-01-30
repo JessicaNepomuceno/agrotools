@@ -38,6 +38,7 @@ C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.Application\obj\Debug\net8.0\MVC
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.Application\obj\Debug\net8.0\MVCPrototype.Application.AssemblyInfoInputs.cache
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.Application\obj\Debug\net8.0\MVCPrototype.Application.AssemblyInfo.cs
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.Application\obj\Debug\net8.0\MVCPrototype.Application.csproj.CoreCompileInputs.cache
+C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.Application\obj\Debug\net8.0\MVCPrototype.Application.sourcelink.json
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.Application\obj\Debug\net8.0\MVCProto.A6D13541.Up2Date
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.Application\obj\Debug\net8.0\MVCPrototype.Application.dll
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.Application\obj\Debug\net8.0\refint\MVCPrototype.Application.dll

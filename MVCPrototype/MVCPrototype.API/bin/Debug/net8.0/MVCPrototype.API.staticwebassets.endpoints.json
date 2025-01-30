@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 10:20:36 GMT"
+          "Value": "Thu, 30 Jan 2025 02:57:21 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,7 +74,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 10:20:36 GMT"
+          "Value": "Thu, 30 Jan 2025 02:57:21 GMT"
         }
       ],
       "EndpointProperties": [
@@ -741,6 +741,88 @@
       ]
     },
     {
+      "Route": "js/weather/calendar.273akkey8n.js",
+      "AssetFile": "js/weather/calendar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1859"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rvIHfib752R7P3S/qIctfBIdcEI4M7lNiPoCXtskEm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 02:23:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "273akkey8n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rvIHfib752R7P3S/qIctfBIdcEI4M7lNiPoCXtskEm8="
+        },
+        {
+          "Name": "label",
+          "Value": "js/weather/calendar.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/weather/calendar.js",
+      "AssetFile": "js/weather/calendar.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1859"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rvIHfib752R7P3S/qIctfBIdcEI4M7lNiPoCXtskEm8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 02:23:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rvIHfib752R7P3S/qIctfBIdcEI4M7lNiPoCXtskEm8="
+        }
+      ]
+    },
+    {
       "Route": "js/weather/main.je4c475mg4.js",
       "AssetFile": "js/weather/main.js",
       "Selectors": [],
@@ -767,7 +849,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 02:47:39 GMT"
+          "Value": "Thu, 30 Jan 2025 02:57:01 GMT"
         }
       ],
       "EndpointProperties": [
@@ -812,13 +894,95 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 02:47:39 GMT"
+          "Value": "Thu, 30 Jan 2025 02:57:01 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-tY4hnnd7OfP55jy2XSkBRIuPeKGT5C9TYEzMEKB9mSI="
+        }
+      ]
+    },
+    {
+      "Route": "js/weather/search.js",
+      "AssetFile": "js/weather/search.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nxGjK3xEMbnCjLLZYWWTCpRvmO00Cui7zwmW3izWQNs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 01:56:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nxGjK3xEMbnCjLLZYWWTCpRvmO00Cui7zwmW3izWQNs="
+        }
+      ]
+    },
+    {
+      "Route": "js/weather/search.piswydme9a.js",
+      "AssetFile": "js/weather/search.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nxGjK3xEMbnCjLLZYWWTCpRvmO00Cui7zwmW3izWQNs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 01:56:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "piswydme9a"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nxGjK3xEMbnCjLLZYWWTCpRvmO00Cui7zwmW3izWQNs="
+        },
+        {
+          "Name": "label",
+          "Value": "js/weather/search.js"
         }
       ]
     },

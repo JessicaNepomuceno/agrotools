@@ -6,7 +6,9 @@ wwwroot\icons\smog-solid.svg
 wwwroot\icons\snowflake-solid.svg
 wwwroot\icons\sun-solid.svg
 wwwroot\js\site.js
+wwwroot\js\weather\calendar.js
 wwwroot\js\weather\main.js
+wwwroot\js\weather\search.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

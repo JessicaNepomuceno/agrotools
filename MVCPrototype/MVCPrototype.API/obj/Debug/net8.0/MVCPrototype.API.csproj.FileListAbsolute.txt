@@ -93,6 +93,7 @@ C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.API\obj\Debug\net8.0\MVCPrototyp
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.API\obj\Debug\net8.0\MVCPrototype.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.API\obj\Debug\net8.0\MVCPrototype.API.RazorAssemblyInfo.cache
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.API\obj\Debug\net8.0\MVCPrototype.API.RazorAssemblyInfo.cs
+C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.API\obj\Debug\net8.0\MVCPrototype.API.sourcelink.json
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.API\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.API\obj\Debug\net8.0\scopedcss\bundle\MVCPrototype.API.styles.css
 C:\Sistemas\agrotools\MVCPrototype\MVCPrototype.API\obj\Debug\net8.0\scopedcss\projectbundle\MVCPrototype.API.bundle.scp.css

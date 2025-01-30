@@ -37,8 +37,16 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Sistemas\\agrotools\\MVCPrototype\\MVCPrototype.API\\wwwroot\\js\\weather\\calendar.js",
+      "PackagePath": "staticwebassets\\js\\weather\\calendar.js"
+    },
+    {
       "Id": "C:\\Sistemas\\agrotools\\MVCPrototype\\MVCPrototype.API\\wwwroot\\js\\weather\\main.js",
       "PackagePath": "staticwebassets\\js\\weather\\main.js"
+    },
+    {
+      "Id": "C:\\Sistemas\\agrotools\\MVCPrototype\\MVCPrototype.API\\wwwroot\\js\\weather\\search.js",
+      "PackagePath": "staticwebassets\\js\\weather\\search.js"
     },
     {
       "Id": "C:\\Sistemas\\agrotools\\MVCPrototype\\MVCPrototype.API\\wwwroot\\lib\\bootstrap\\LICENSE",

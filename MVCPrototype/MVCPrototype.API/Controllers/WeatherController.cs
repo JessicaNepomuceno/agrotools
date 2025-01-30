@@ -23,5 +23,21 @@ namespace MVCPrototype.Controllers
             var response = _weatherService.GetWeather();
             return StatusCode(200, response);
         }
+
+        [HttpGet]
+        [Route("Search")]
+        public IActionResult Get(string startDate, string endDate)
+        {
+            var response = _weatherService.GetWeather(startDate, endDate);
+            return StatusCode(200, response);
+        }
+
+        [HttpGet]
+        [Route("Calendar")]
+        public IActionResult GetCalendar()
+        {
+            var response = _weatherService.GetWeather(DateTime.Now);
+            return StatusCode(200, response);
+        }
     }
 }

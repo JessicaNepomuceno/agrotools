@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCPrototype.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c76cd50d3aeb635f16d39b1c103860853169990")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCPrototype.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCPrototype.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

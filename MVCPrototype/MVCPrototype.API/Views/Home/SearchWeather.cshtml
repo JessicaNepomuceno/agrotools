@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Search Weather";
+}
+
+<link rel="stylesheet" href="~/css/weather/style.css" />
+
+<div>
+    <h1 class="display-5">Consultar Clima</h1>
+    <div>
+        <label for="startDate">Data Início:</label>
+        <input type="text" id="startDate" name="startDate" placeholder="DD/MM/AAAA" pattern="\d{2}/\d{2}/\d{4}" required>
+
+        <label for="endDate">Data Fim:</label>
+        <input type="text" id="endDate" name="endDate" placeholder="DD/MM/AAAA" pattern="\d{2}/\d{2}/\d{4}" required>
+
+        <button type="button" id="weather-search">Pesquisar</button>
+    </div>    
+    <div id="weather-list"></div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/weather/search.js" defer></script>
+}
