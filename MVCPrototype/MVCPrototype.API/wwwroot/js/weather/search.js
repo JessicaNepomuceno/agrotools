@@ -8,7 +8,7 @@ $(document).ready(function () {
         var endDate = $("#endDate").val();
 
         if (!startDate || !endDate) {
-            alert("Por favor, preencha ambas as datas antes de pesquisar!");            
+            alert("Please fill in both dates before searching!");            
             return;
         }
 
@@ -18,7 +18,7 @@ $(document).ready(function () {
             data: { startDate: startDate, endDate: endDate },
             success: function (response) {                
                 if (!response[0]?.date) {
-                    alert("Por favor, verifique as datas informadas e tente novamente!");
+                    alert("Please check the entered dates and try again!");
                     return;
                 } else {
                     weather_container.empty();
@@ -46,7 +46,9 @@ function mountWeatherDisplay(weather_object) {
     temperature.innerText = `${weather_object.temperatureC}`;
 
     let icon = document.createElement("LABEL");
-    icon.appendChild(getIcon(weather_object.summary));    
+    const icon_img = document.createElement("IMG");
+    icon_img.src = `${weather_object.icon}`;
+    icon.appendChild(icon_img);
 
     weather.appendChild(header);
     weather.appendChild(temperature);
@@ -54,25 +56,6 @@ function mountWeatherDisplay(weather_object) {
     weather.appendChild(footer);
 
     return weather;
-}
-
-function getIcon(summary) {
-    const icon_img = document.createElement("IMG");
-    switch (summary) {
-        case "Frio":
-            icon_img.src = ICON_SRC + "/snowflake-solid.svg";
-            break;
-        case "Nublado":
-            icon_img.src = ICON_SRC + "/smog-solid.svg";
-            break;
-        case "Ensolarado":
-            icon_img.src = ICON_SRC + "/sun-solid.svg";
-            break;
-        case "Chuvoso":
-            icon_img.src = ICON_SRC + "/rain-solid.svg";
-            break;
-    }
-    return icon_img;
 }
 
 function sendWeatherAlert(message) {

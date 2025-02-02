@@ -17,14 +17,19 @@ function mountWeatherDisplay(weather_object) {
 
     let header = document.createElement("SPAN");
     header.innerText = `${weather_object.date}`;
+
     let footer = document.createElement("SPAN");
     footer.innerText = weather_object.summary;
 
     let temperature = document.createElement("SPAN");
     temperature.classList.add("weather-temperature");
     temperature.innerText = `${weather_object.temperatureC}`;
+
     let icon = document.createElement("LABEL");
-    icon.appendChild(getIcon(weather_object.summary));
+    const icon_img = document.createElement("IMG");
+    icon_img.src = `${weather_object.icon}`;
+    icon.appendChild(icon_img);
+
     let dayOfWeek = document.createElement("SPAN");
     dayOfWeek.classList.add("weather-dayOfWeek");
     dayOfWeek.innerText = `${weather_object.dayOfWeek}`;    
@@ -36,23 +41,4 @@ function mountWeatherDisplay(weather_object) {
     weather.appendChild(footer);
 
     return weather;
-}
-
-function getIcon(summary) {
-    const icon_img = document.createElement("IMG");
-    switch (summary) {
-        case "Frio":
-            icon_img.src = ICON_SRC + "/snowflake-solid.svg";
-            break;
-        case "Nublado":
-            icon_img.src = ICON_SRC + "/smog-solid.svg";
-            break;
-        case "Ensolarado":
-            icon_img.src = ICON_SRC + "/sun-solid.svg";
-            break;
-        case "Chuvoso":
-            icon_img.src = ICON_SRC + "/rain-solid.svg";
-            break;
-    }
-    return icon_img;
 }
